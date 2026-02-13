@@ -1,96 +1,86 @@
-# Boligmarked Analyse - Østfold
+# Housing Market Analysis - Østfold, Norway
 
-AI-drevet analyse av boligmarkedet i Østfold med web scraping, maskinlæring og interaktivt dashboard.
+AI-powered housing market analysis with web scraping, machine learning, and interactive dashboard.
 
 ![Dashboard Preview](screenshots/Oversikt.png)
 
-## Prosjektbeskrivelse
+## Project Description
 
-Fullstack data science-prosjekt som:
-- Scraper boligdata fra Finn.no
-- Analyserer pristrender og mønstre
-- Trener ML-modell for prisprediksjon
-- Presenterer resultatene i interaktivt dashboard
+Full-stack data science project that:
+- Scrapes housing data from Finn.no (Norwegian real estate platform)
+- Analyzes price trends and patterns
+- Trains ML model for price prediction
+- Presents results in an interactive dashboard
 
-**Resultater:**
-- 1026 boliger analysert fra Østfold
-- ML-modell med R² = 0.51
-- Interaktivt dashboard med 4 analyse-tabs
+**Results:**
+- 1,026 properties analyzed from Østfold region
+- ML model with R² = 0.51
+- Interactive dashboard with 4 analysis tabs
 
-## Teknologier
+## Technologies
 
-- **Data innhenting:** BeautifulSoup, requests
-- **Databehandling:** Pandas, NumPy
-- **Maskinlæring:** scikit-learn (Linear Regression)
-- **Visualisering:** Plotly, Streamlit
-- **Versjonskontroll:** Git, GitHub
+- **Data Collection:** BeautifulSoup, requests
+- **Data Processing:** Pandas, NumPy
+- **Machine Learning:** scikit-learn (Linear Regression)
+- **Visualization:** Plotly, Streamlit
+- **Version Control:** Git, GitHub
 
-## Installasjon
+## Installation
 
-### Forutsetninger
-- Python 3.11 eller 3.12
+### Prerequisites
+- Python 3.11 or 3.12
 - pip
 
-### Steg 1: Klon repository
+### Step 1: Clone repository
 ```bash
-git clone https://github.com/dittbrukernavn/boliganalyse.git
+git clone https://github.com/yourusername/boliganalyse.git
 cd boliganalyse
 ```
 
-### Steg 2: Installer avhengigheter
+### Step 2: Install dependencies
 ```bash
 pip install -r requirements.txt
 ```
 
-## Bruk
+## Usage
 
-### 1. Hent boligdata
+### 1. Scrape housing data
 ```bash
 python scraper.py
 ```
-Dette tar 5-10 minutter og lagrer data til `boliger_ostfold.csv`.
+Takes 5-10 minutes and saves data to `boliger_ostfold.csv`.
 
-### 2. Kjør dashboard
+### 2. Run dashboard
 ```bash
 streamlit run app.py
 ```
-Åpner automatisk i nettleser på `localhost:8501`.
+Opens automatically in browser at `localhost:8501`.
 
 ## Features
 
-### 📊 Oversikt
-- Prisfordeling (histogram)
-- Prissprednng (box plot)
-- Størrelse vs pris-analyse
+### 📊 Overview
+- Price distribution (histogram)
+- Price spread (box plot)
+- Size vs price analysis
 
-### 🗺️ Per område
-- Sammenligning mellom kommuner
-- Pris per kvm-analyse
-- Boligtype-fordeling
+### 🗺️ Regional Analysis
+- Municipality comparison
+- Price per sqm analysis
+- Property type distribution
 
-### 🤖 AI Priskalkulator
-- ML-modell for prisprediksjon
-- Input: størrelse, kommune, boligtype
-- Sammenligning med lignende boliger
+### 🤖 AI Price Calculator
+- ML model for price prediction
+- Input: size, municipality, property type
+- Comparison with similar properties
 
-### 📈 Detaljert analyse
-- Statistikk per kommune
-- Rå data med filtrering
+### 📈 Detailed Analysis
+- Statistics per municipality
+- Raw data with filtering
 
-## Screenshots
-
-![Priskalkulator](screenshots/kalkulator.png)
-*AI-drevet priskalkulator med R² = 0.51*
-
-![Analyse](screenshots/analyser.png)
-*Statistikk og sammenligning per kommune*
-
-## Utviklet av
+## Developed by
 
 Jørgen A. Fjellstad  
-Bachelor i ingeniørfag - data, Høgskolen i Østfold  
-[GitHub](https://github.com/Jorgenfje) | [LinkedIn](https://linkedin.com/in/jorgen-fjellstad)
 
-## Lisens
+## License
 
 MIT
