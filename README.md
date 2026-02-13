@@ -48,7 +48,7 @@ pip install -r requirements.txt
 ```bash
 python scraper.py
 ```
-Takes 5-10 minutes and saves data to `boliger_ostfold.csv`.
+Takes a few minutes and saves data to `boliger_ostfold.csv`.
 
 ### 2. Run dashboard
 ```bash
