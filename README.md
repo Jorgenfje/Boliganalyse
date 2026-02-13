@@ -2,7 +2,7 @@
 
 AI-drevet analyse av boligmarkedet i Østfold med web scraping, maskinlæring og interaktivt dashboard.
 
-![Dashboard Preview](screenshots/dashboard.png)
+![Dashboard Preview](screenshots/Oversikt.png)
 
 ## Prosjektbeskrivelse
 
